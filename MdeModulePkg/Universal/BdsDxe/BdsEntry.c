@@ -15,7 +15,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include "Bds.h"
 #include "Language.h"
 #include "HwErrRecSupport.h"
-#include "library/VariablePolicyHelperLib.h"
+#include <Library/VariablePolicyHelperLib.h>
 
 #define SET_BOOT_OPTION_SUPPORT_KEY_COUNT(a, c) {  \
       (a) = ((a) & ~EFI_BOOT_OPTION_SUPPORT_COUNT) | (((c) << LowBitSet32 (EFI_BOOT_OPTION_SUPPORT_COUNT)) & EFI_BOOT_OPTION_SUPPORT_COUNT); \

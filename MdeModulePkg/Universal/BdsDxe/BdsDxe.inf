@@ -50,7 +50,6 @@
   BaseMemoryLib
   DebugLib
   UefiBootManagerLib
-  VariablePolicyLib
   VariablePolicyHelperLib
   PlatformBootManagerLib
   PcdLib
